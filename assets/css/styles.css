@@ -260,19 +260,12 @@ img{
 /*==================== HOME ====================*/
 
 #home{
-    min-height: 100vh;
     position: relative;
-    padding: 0 0 var(--header-height);
-    margin-bottom: 4rem;
+    min-height: 100vh;
     display: flex;
-    justify-content: center;;
-}
-
-.home__container{
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 var(--header-height)
 }
 
 /* PARTICLES JS */
