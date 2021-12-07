@@ -265,7 +265,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 0 var(--header-height)
+    padding: 0 0 var(--header-height);
 }
 
 /* PARTICLES JS */
