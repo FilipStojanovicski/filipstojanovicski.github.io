@@ -264,8 +264,15 @@ img{
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 0 var(--header-height);
+    margin-bottom: 4rem;
+}
+
+.home__container{
+    gap: 1rem;
+    min-width: 50%;
+    margin-top: 2rem;
 }
 
 /* PARTICLES JS */
@@ -288,10 +295,6 @@ canvas {
     vertical-align: bottom;
 }
 
-.home__container{
-    gap: 1rem;
-    min-width: 50%;
-}
 .home__content{
     grid-template-rows: min-content;
     align-items: center;
