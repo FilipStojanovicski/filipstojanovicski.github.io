@@ -743,7 +743,7 @@ canvas {
     gap: 1.5rem;
 }
 
-.footer__links:hover{
+.footer__link:hover{
     color: var(--first-color-lighter);
 }
 
@@ -768,6 +768,30 @@ canvas {
 .footer__link,
 .footer__social{
     color: #FFF;
+}
+
+.footer__logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.footer__logo-text{
+    color: #FFF;
+    font-weight: var(--font-medium);
+}
+.footer__logo-img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.25rem;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.footer__logo:hover .footer__logo-img{
+    transform: rotate(180deg);
+}
+.footer__logo:hover .footer__logo-text:hover{
+    color: var(--first-color-lighter);
 }
 
 /*========== SCROLL BAR ==========*/
