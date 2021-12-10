@@ -10,7 +10,6 @@ if(navToggle){
         navMenu.classList.add('show-menu')
     })
 }
-    
 
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
@@ -20,12 +19,9 @@ if(navClose){
     })
 }
 
-/*==================== REMOVE MENU MOBILE ====================*/
-
 /*==================== PARTICLES JS ====================*/
-/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('home__particles-js', 'assets/json/particles.json', function() {
-    console.log('callback - particles.js config loaded');
+    // console.log('callback - particles.js config loaded');
   });
 
 /*==================== ACCORDION SKILLS ====================*/
