@@ -469,23 +469,23 @@ canvas {
 .skills__sklearn {
 	width: 90%;
 }
-.skills__html {
-	width: 60%;
-}
-.skills__css {
-	width: 60%;
-}
-.skills__js {
-	width: 30%;
-}
 .skills__flask {
+	width: 60%;
+}
+.skills__react {
+	width: 60%;
+}
+.skills__express {
 	width: 30%;
+}
+.skills__htmlcss {
+	width: 60%;
 }
 .skills__sql {
 	width: 90%;
 }
 .skills__elasticsearch {
-	width: 60%;
+	width: 90%;
 }
 .skills__aws {
 	width: 90%;
@@ -494,10 +494,10 @@ canvas {
 	width: 60%;
 }
 .skills__git {
-	width: 90%;
+	width: 60%;
 }
 .skills__linux {
-	width: 30%;
+	width: 60%;
 }
 
 .skills__close .skills__list {
@@ -598,7 +598,7 @@ canvas {
 	border-radius: .5rem;
 	justify-self: center;
 	object-fit: cover;
-	object-position: left top;
+	object-position: center top;
 }
 .portfolio__title {
 	font-size: var(--h3-font-size);
