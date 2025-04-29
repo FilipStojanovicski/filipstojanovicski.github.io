@@ -1,408 +1,516 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!--==================== UNICONS ====================-->
-      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-      <!--==================== CSS ====================-->
-      <link rel="stylesheet" href="assets/css/styles.css">
-      <title>Filip Stojanovic</title>
-      <!--==================== FAV ICON ====================-->
-      <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
-      <link rel="manifest" href="assets/img/favicon/site.webmanifest">
-      <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-      <meta name="msapplication-TileColor" content="#da532c">
-      <meta name="theme-color" content="#ffffff">
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         <nav class="nav container">
-            <a href="#home">
-               <div class="nav__logo">
-                  <img class="nav__logo-img" src="assets/img/socialextract-logo.png" alt="">
-                  <p class="nav__logo-text">Filip Stojanovic</p>
-               </div>
-            </a>
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list grid">
-                  <li class="nav__item">
-                     <a href="#home" class="nav__link active-link">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--==================== UNICONS ====================-->
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   <!--==================== CSS ====================-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+   <title>Filip Stojanovic</title>
+   <!--==================== FAV ICON ====================-->
+   <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+   <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+   <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#home">
+            <div class="nav__logo">
+               <img class="nav__logo-img" src="assets/img/socialextract-logo.png" alt="">
+               <p class="nav__logo-text">Filip Stojanovic</p>
+            </div>
+         </a>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+               <li class="nav__item">
+                  <a href="#home" class="nav__link active-link">
                      <i class="uil uil-estate nav__icon"></i> Home
-                     </a>
-                  </li>
-                  <li class="nav__item">
-                     <a href="#portfolio" class="nav__link">
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#portfolio" class="nav__link">
                      <i class="uil uil-scenery nav__icon"></i> Projects
-                     </a>
-                  </li>
-                  <li class="nav__item">
-                     <a href="#qualification" class="nav__link">
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#qualification" class="nav__link">
                      <i class="uil uil-file-alt nav__icon"></i> Experience
-                     </a>
-                  </li>
-                  <li class="nav__item">
-                     <a href="#skills" class="nav__link">
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#skills" class="nav__link">
                      <i class="uil uil-brackets-curly nav__icon"></i> Skills
-                     </a>
-                  </li>
-                  <li class="nav__item">
-                     <a href="#about" class="nav__link">
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#about" class="nav__link">
                      <i class="uil uil-user nav__icon"></i> About
-                     </a>
-                  </li>
-                  <li class="nav__item">
-                     <a href="#contact" class="nav__link">
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#contact" class="nav__link">
                      <i class="uil uil-message nav__icon"></i> Contact
-                     </a>
-                  </li>
-               </ul>
-               <i class="uil uil-times nav__close" id="nav-close"></i>
+                  </a>
+               </li>
+            </ul>
+            <i class="uil uil-times nav__close" id="nav-close"></i>
+         </div>
+         <div class="nav__btns">
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="uil uil-apps"></i>
             </div>
-            <div class="nav__btns">
-               <div class="nav__toggle" id="nav-toggle">
-                  <i class="uil uil-apps"></i>
+         </div>
+      </nav>
+   </header>
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div id="home__particles-js">
+         </div>
+         <div class="home__container container grid">
+            <div class="home__content grid">
+               <div class="home__titles">
+                  <div>
+                     <image class="home__logo-img" src="assets/img/socialextract-logo.png" alt="" />
+                  </div>
+                  <div>
+                     <h1 class="home__title">Hi, I'm Filip</h1>
+                     <h3 class="home__subtitle">Machine Learning Engineer</h3>
+                  </div>
                </div>
-            </div>
-         </nav>
-      </header>
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            <div id="home__particles-js">
-            </div>
-            <div class="home__container container grid">
-               <div class="home__content grid">
-                  <div class="home__titles">
-                     <div>
-                        <image  class="home__logo-img" src="assets/img/socialextract-logo.png" alt=""/>
-                     </div>
-                     <div>
-                        <h1 class="home__title">Hi, I'm Filip</h1>
-                        <h3 class="home__subtitle">Machine Learning Developer</h3>
-                     </div>
-                  </div>
-                  <div class="home__description">
-                     <p>I am experienced in Machine Learning and Big Data and passionate about using code 
-                        and Artificial Intelligence to impact peoples lives in a positive way.
-                     </p>
-                  </div>
-                  <div class="home__social">
-                     <a href="https://www.linkedin.com/in/filip-stojanovic-166382120" target = "_blank" class="home__social-icon">
+               <div class="home__description">
+                  <p>I am an experienced Machine Learning Engineer who is passionate about applying AI
+                     to solve important problems and drive innovation.
+                  </p>
+               </div>
+               <div class="home__social">
+                  <a href="https://www.linkedin.com/in/filip-stojanovic-166382120" target="_blank"
+                     class="home__social-icon">
                      <i class="uil uil-linkedin-alt"></i>
-                     </a>
-                     <a href="https://github.com/FilipStojanovicski" target = "_blank" class="home__social-icon">
+                  </a>
+                  <a href="https://github.com/FilipStojanovicski" target="_blank" class="home__social-icon">
                      <i class="uil uil-github-alt"></i>
-                     </a>
-                  </div>
-                  <a href="#contact" class="home__contact-button button button--flex">
-                  Contact Me <i class="uil uil-message button__icon"></i>
                   </a>
                </div>
+               <a href="#contact" class="home__contact-button button button--flex">
+                  Contact Me <i class="uil uil-message button__icon"></i>
+               </a>
             </div>
-            </div>
-         </section>
-         <!--==================== PORTFOLIO ====================-->
-         <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Projects</h2>
-            <span class="section__subtitle">A collection of some of my favorite work</span>
-            <div class="portfolio__container container grid">
-               <!--==================== PORTFOLIO 2 ====================-->
-               <div class="portfolio__content grid">
-                  <img src="assets/img/movie_recommender_preview.png" alt="" class="portfolio__img">
-                  <div class="portfolio__data">
-                     <h3 class="portfolio__title">Movie Recommender</h3>
-                     <p class="portfolio__description">
-                        An interactive web application that provides Artificial Intelligence based movie 
-                        recommendations based on a users inputted movie ratings
-                     </p>
-                     <div class="portfolio__buttons">
-                        <a href="https://movierecommender.live/" class="button button--flex button--small portfolio__button">
+         </div>
+         </div>
+      </section>
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+         <h2 class="section__title">Projects</h2>
+         <span class="section__subtitle">A collection of some of my favorite work</span>
+         <div class="portfolio__container container grid">
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio__content grid">
+               <img src="assets/img/movie_recommender_preview.png" alt="" class="portfolio__img">
+               <div class="portfolio__data">
+                  <h3 class="portfolio__title">Movie Recommender</h3>
+                  <p class="portfolio__description">
+                     An interactive web application that provides Artificial Intelligence based movie
+                     recommendations based on a users inputted movie ratings
+                  </p>
+                  <div class="portfolio__buttons">
+                     <a href="https://movierecommender.live/"
+                        class="button button--flex button--small portfolio__button">
                         Demo
                         <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                        <a href="https://github.com/FilipStojanovicski/movie-recommender-react-app" class="button button--flex button--small portfolio__button" target="_blank">
+                     </a>
+                     <a href="https://github.com/FilipStojanovicski/movie-recommender-react-app"
+                        class="button button--flex button--small portfolio__button" target="_blank">
                         Code
                         <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                     </div>
+                     </a>
                   </div>
                </div>
-               <!--==================== PORTFOLIO 1 ====================-->
-               <div class="portfolio__content grid">
-                  <img src="assets/img/freestockmarket.png" alt="" class="portfolio__img">
-                  <div class="portfolio__data">
-                     <h3 class="portfolio__title">Free Stock Market</h3>
-                     <p class="portfolio__description">
-                        A virtual stock trading brokerage web application that simulates the real stock market. 
-                        Users buy and sell real stocks with their latest prices using virtual currency.
-                     </p>
-                     <div class="portfolio__buttons">
-                        <a href="http://137.184.168.183/" class="button button--flex button--small portfolio__button" target="_blank">
+            </div>
+            <!--==================== PORTFOLIO 1 ====================-->
+            <div class="portfolio__content grid">
+               <img src="assets/img/freestockmarket.png" alt="" class="portfolio__img">
+               <div class="portfolio__data">
+                  <h3 class="portfolio__title">Free Stock Market</h3>
+                  <p class="portfolio__description">
+                     A virtual stock trading brokerage web application that simulates the real stock market.
+                     Users buy and sell real stocks with their latest prices using virtual currency.
+                  </p>
+                  <div class="portfolio__buttons">
+                     <a href="http://137.184.168.183/" class="button button--flex button--small portfolio__button"
+                        target="_blank">
                         Demo
                         <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                        <a href="https://github.com/FilipStojanovicski/free_stock_market" class="button button--flex button--small portfolio__button" target="_blank">
+                     </a>
+                     <a href="https://github.com/FilipStojanovicski/free_stock_market"
+                        class="button button--flex button--small portfolio__button" target="_blank">
                         Code
                         <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+         <h2 class="section__title">Experience</h2>
+         <span class="section__subtitle">My professional journey</span>
+         <div class="qualification__container container">
+            <div class="qualification__tabs">
+               <div class="qualification__button button--flex qualification__active" data-target="#work">
+                  <i class="uil uil-briefcase-alt qualification__icon"></i>
+                  Work
+               </div>
+               <div class="qualification__button button--flex" data-target="#education">
+                  <i class="uil uil-graduation-cap qualification__icon"></i>
+                  Education
+               </div>
+            </div>
+            <div class="qualification__sections">
+               <!--==================== QUALIFICATION CONTENT 1 ====================-->
+               <div class="qualification__content qualification__active" data-content id="work">
+                  <!--==================== QUALIFICATION 1 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder bigger-rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Senior Data Scientist</h3>
+                        <span class="qualification__subtitle">Aviva</span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2024 - Present
+                        </div>
+                     </div>
+                  </div>
+                  <!--==================== QUALIFICATION DESCRIPTION 1 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Generative AI Model Development</h3>
+                        <span class="qualification__subtitle">Developed neural networks using Large Language Models (LLMs) 
+                           such as BERT and Llama that integrate text and structured data in order to identify subrogation opportunities, 
+                           delivering over $1 million in financial benefits.</span>
+                     </div>
+                  </div>
+                  <!--==================== QUALIFICATION DESCRIPTION 2  ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Machine Learning Pipeline Deployment</h3>
+                        <span class="qualification__subtitle">Designed automated pipelines for daily operational reports, integrating data and model 
+                           predictions to facilitate claims identification and decision-making.
+                        </span>
+                     </div>
+                  </div>
+                  <!--==================== QUALIFICATION DESCRIPTION 3 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Reporting and Maintenance</h3>
+                        <span class="qualification__subtitle"> Managed performance reports, dashboards for KPIs, 
+                           and documentation, collaborating with business leads to enhance tools based on user feedback.
+                     </div>
+                  </div>
+               </div>
+               <!--==================== QUALIFICATION CONTENT 2 ====================-->
+               <div class="qualification__content qualification__active" data-content id="work">
+                  <!--==================== QUALIFICATION 1 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder bigger-rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Machine Learning Engineer</h3>
+                        <span class="qualification__subtitle">Voices</span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2022 - 2024
+                        </div>
+                     </div>
+                  </div>
+                  <!--==================== QUALIFICATION DESCRIPTION 1 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Voice Cloning Model Development</h3>
+                        <span class="qualification__subtitle">Led the AI Voice Cloning project, creating an end-to-end
+                           Text to Speech Model
+                           in PyTorch and deploying it in a Docker environment.</span>
+                     </div>
+                  </div>
+                  <!--==================== QUALIFICATION DESCRIPTION 2  ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">ML Ops Deployment</h3>
+                        <span class="qualification__subtitle"> Transitioned VoiceMatch and Pricing Recommendation Models
+                           to a serverless architecture
+                           on AWS Sagemaker and Lambda, simplifying deployment and improving performance.
+                        </span>
+                     </div>
+                  </div>
+                  <!--==================== QUALIFICATION DESCRIPTION 3 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Database Engineering</h3>
+                        <span class="qualification__subtitle"> Led the development of a new Business Intelligence data
+                           warehouse along with data processing and
+                           ingestion pipelines that powers all of the Analytics and Machine Learning processes.
+                     </div>
+                  </div>
+                  <!--==================== QUALIFICATION 2 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder bigger-rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Machine Learning Engineer</h3>
+                        <span class="qualification__subtitle">Opta Information Intelligence</span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2019 - 2022
+                        </div>
+                     </div>
+                  </div>
+                  <!--==================== QUALIFICATION DESCRIPTION 1 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Machine Learning Model Development</h3>
+                        <span class="qualification__subtitle"> Created predictive models for identifying Fire Risk and
+                           Smoke Alarms,
+                           which were adopted and utilized by municipal fire departments across Canada for property
+                           inspections.</span>
+                     </div>
+                  </div>
+                  <!--==================== QUALIFICATION DESCRIPTION 2 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Model Deployment</h3>
+                        <span class="qualification__subtitle">Deployed Lot Size and Comparable Properties models in AWS
+                           Sagemaker,
+                           enabling real-time predictions via serverless APIs.</span>
+                     </div>
+                  </div>
+                  <!--==================== QUALIFICATION DESCRIPTION 3 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder"></span>
+                        <!-- <span class="qualification__line"></span> -->
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">ETL Pipelines</h3>
+                        <span class="qualification__subtitle">Developed automated processes to maintain large-scale
+                           databases,
+                           employing AWS tools for data validation and cleaning.</span>
+                     </div>
+                  </div>
+               </div>
+               <!--==================== QUALIFICATION CONTENT 3 ====================-->
+               <div class="qualification__content" data-content id="education">
+                  <!--==================== EDUCATION 1 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder bigger-rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Bachelors of Science in Mathematics and Physics</h3>
+                        <span class="qualification__subtitle">University of Toronto</span>
+                     </div>
+                  </div>
+                  <!--==================== EDUCATION 2 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Machine Learning Specialization</h3>
+                        <span class="qualification__subtitle">Stanford University</span>
+                     </div>
+                  </div>
+                  <!--==================== EDUCATION 3 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Certifications in Responsive Web Design, Front End, Back End
+                           and Relational Databases</h3>
+                        <span class="qualification__subtitle">Free Code Camp</span>
+                     </div>
+                  </div>
+                  <!--==================== EDUCATION 4 ====================-->
+                  <div class="qualification__data">
+                     <div class="qualification__bullet">
+                        <span class="qualification__rounder"></span>
+                        <!-- <span class="qualification__line"></span> -->
+                     </div>
+                     <div class="qualification__text">
+                        <h3 class="qualification__title">Deep Learning Specialization</h3>
+                        <span class="qualification__subtitle">Stanford University</span>
                      </div>
                   </div>
                </div>
             </div>
-         </section>
-         <!--==================== QUALIFICATION ====================-->
-         <section class="qualification section" id="qualification">
-            <h2 class="section__title">Experience</h2>
-            <span class="section__subtitle">My professional journey</span>
-            <div class="qualification__container container">
-               <div class="qualification__tabs">
-                  <div class="qualification__button button--flex qualification__active" data-target="#work">
-                     <i class="uil uil-briefcase-alt qualification__icon"></i>
-                     Work
+         </div>
+      </section>
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+         <h2 class="section__title">Skills</h2>
+         <span class="section__subtitle">My technical stack</span>
+         <div class="skills__container container grid">
+            <div>
+               <!--==================== SKILLS 1 ====================-->
+               <div class="skills__content skills__open">
+                  <div class="skills__header">
+                     <i class="uil uil-robot skills__icon"></i>
+                     <div>
+                        <h1 class="skills__title">Machine Learning</h1>
+                        <span class="skills__subtitle">More than 7 years</span>
+                     </div>
+                     <i class="uil uil-angle-down skills__arrow"></i>
                   </div>
-                  <div class="qualification__button button--flex" data-target="#education">
-                     <i class="uil uil-graduation-cap qualification__icon"></i>
-                     Education
+                  <div class="skills__list grid">
+                     <div class="skills__data">
+                        <div class="skills__titles">
+                           <h3 class="skills__name">Python</h3>
+                           <span class="skills__level">Expert</span>
+                        </div>
+                        <div class="skills__bar">
+                           <span class="skills__percentage skills__python"></span>
+                        </div>
+                     </div>
+                     <div class="skills__data">
+                        <div class="skills__titles">
+                           <h3 class="skills__name">AWS Sagemaker</h3>
+                           <span class="skills__level">Expert</span>
+                        </div>
+                        <div class="skills__bar">
+                           <span class="skills__percentage skills__sagemaker"></span>
+                        </div>
+                     </div>
+                     <div class="skills__data">
+                        <div class="skills__titles">
+                           <h3 class="skills__name">Pytorch</h3>
+                           <span class="skills__level">Intermediate</span>
+                        </div>
+                        <div class="skills__bar">
+                           <span class="skills__percentage skills__pytorch"></span>
+                        </div>
+                     </div>
+                     <div class="skills__data">
+                        <div class="skills__titles">
+                           <h3 class="skills__name">SKLearn</h3>
+                           <span class="skills__level">Expert</span>
+                        </div>
+                        <div class="skills__bar">
+                           <span class="skills__percentage skills__sklearn"></span>
+                        </div>
+                     </div>
                   </div>
                </div>
-               <div class="qualification__sections">
-                  <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                  <div class="qualification__content qualification__active" data-content id="work">
-                     <!--==================== QUALIFICATION 1 ====================-->
-                     <div class="qualification__data">
-                        <div class="qualification__bullet">
-                           <span class="qualification__rounder bigger-rounder"></span>
-                           <span class="qualification__line"></span>
-                        </div>
-                        <div class="qualification__text">
-                           <h3 class="qualification__title">Machine Learning Developer</h3>
-                           <span class="qualification__subtitle">Voices</span>
-                           <div class="qualification__calendar">
-                              <i class="uil uil-calendar-alt"></i>
-                              2022 - Present
-                           </div>
-                        </div>
+               <!--==================== SKILLS 2 ====================-->
+               <div class="skills__content skills__close">
+                  <div class="skills__header">
+                     <i class="uil uil-brackets-curly skills__icon"></i>
+                     <div>
+                        <h1 class="skills__title">Web Development</h1>
+                        <span class="skills__subtitle">More than 5 years</span>
                      </div>
-                     <!--==================== QUALIFICATION DESCRIPTION 1 ====================-->
-                     <div class="qualification__data">
-                        <div class="qualification__bullet">
-                           <span class="qualification__rounder"></span>
-                           <span class="qualification__line"></span>
-                        </div>
-                        <div class="qualification__text">
-                           <h3 class="qualification__title">Voice Cloning Model Development</h3>
-                           <span class="qualification__subtitle">Responsible for driving the AI Voice Cloning project requiring the research and development of an end to end 
-                              Text to Speech Model able to generate speech in the cloned voice of users.</span>
-                        </div>
-                     </div>
-                     <!--==================== QUALIFICATION DESCRIPTION 2  ====================-->
-                     <div class="qualification__data">
-                        <div class="qualification__bullet">
-                           <span class="qualification__rounder"></span>
-                           <span class="qualification__line"></span>
-                        </div>
-                        <div class="qualification__text">
-                           <h3 class="qualification__title">ML Ops Deployment</h3>
-                           <span class="qualification__subtitle"> Supported the transfer of existing Machine Learning Models from a complex API 
-                              using a server into the AWS cloud as serverless APIs greatly simplifying the redeployment process and improving performance.
-                           </span>
-                        </div>
-                     </div>
-                     <!--==================== QUALIFICATION DESCRIPTION 3 ====================-->
-                     <div class="qualification__data">
-                        <div class="qualification__bullet">
-                           <span class="qualification__rounder"></span>
-                           <span class="qualification__line"></span>
-                        </div>
-                        <div class="qualification__text">
-                           <h3 class="qualification__title">Database Engineering</h3>
-                           <span class="qualification__subtitle"> Led the development of a new Business Intelligence data warehouse along with data processing and 
-                              ingestion pipelines that powers all of the Analytics and Machine Learning processes.                         
-                        </div>
-                     </div>
-                     <!--==================== QUALIFICATION DESCRIPTION 4 ====================-->
-                     <div class="qualification__data">
-                        <div class="qualification__bullet">
-                           <span class="qualification__rounder"></span>
-                           <span class="qualification__line"></span>
-                        </div>
-                        <div class="qualification__text">
-                           <h3 class="qualification__title">Search Engine Optimization</h3>
-                           <span class="qualification__subtitle">Led the project to rebuild the poorly performing Site Search Engine to create an optimised 
-                              ElasticSearch solution using Natural Language Processing to retrieve the most relevant results and boost conversion.</span>
-                        </div>
-                     </div>
-                     <!--==================== QUALIFICATION 2 ====================-->
-                     <div class="qualification__data">
-                        <div class="qualification__bullet">
-                           <span class="qualification__rounder bigger-rounder"></span>
-                           <span class="qualification__line"></span>
-                        </div>
-                        <div class="qualification__text">
-                           <h3 class="qualification__title">Data Scientist</h3>
-                           <span class="qualification__subtitle">Opta Information Intelligence</span>
-                           <div class="qualification__calendar">
-                              <i class="uil uil-calendar-alt"></i>
-                              2019 - 2022
-                           </div>
-                        </div>
-                     </div>
-                     <!--==================== QUALIFICATION DESCRIPTION 1 ====================-->
-                     <div class="qualification__data">
-                        <div class="qualification__bullet">
-                           <span class="qualification__rounder"></span>
-                           <span class="qualification__line"></span>
-                        </div>
-                        <div class="qualification__text">
-                           <h3 class="qualification__title">Machine Learning Model Development</h3>
-                           <span class="qualification__subtitle">Developed predictive models from start to end by: acquiring 
-                           and cleaning data, engineering features, training and tuning 
-                           models, validating predictions, and testing results.</span>
-                        </div>
-                     </div>
-                     <!--==================== QUALIFICATION DESCRIPTION 2 ====================-->
-                     <div class="qualification__data">
-                        <div class="qualification__bullet">
-                           <span class="qualification__rounder"></span>
-                           <span class="qualification__line"></span>
-                        </div>
-                        <div class="qualification__text">
-                           <h3 class="qualification__title">Deploy Models into Production</h3>
-                           <span class="qualification__subtitle">Took working models and deployed them into a production ready environment as
-                           serverless APIs to make real time predictions.</span>
-                        </div>
-                     </div>
-                     <!--==================== QUALIFICATION DESCRIPTION 3 ====================-->
-                     <div class="qualification__data">
-                        <div class="qualification__bullet">
-                           <span class="qualification__rounder"></span>
-                           <!-- <span class="qualification__line"></span> -->
-                        </div>
-                        <div class="qualification__text">
-                           <h3 class="qualification__title">ETL Pipeline Maintenance</h3>
-                           <span class="qualification__subtitle">Created automated pipelines that perform scheduled 
-                           jobs to ingest data from multiple
-                           sources. Data is sent through validation and cleaning steps and uploaded into standardized 
-                           database tables.</span>
-                        </div>
-                     </div>
+                     <i class="uil uil-angle-down skills__arrow"></i>
                   </div>
-                  <!--==================== QUALIFICATION CONTENT 2 ====================-->
-                  <div class="qualification__content" data-content id="education">
-                     <!--==================== EDUCATION 1 ====================-->
-                     <div class="qualification__data">
-                        <div class="qualification__bullet">
-                           <span class="qualification__rounder bigger-rounder"></span>
-                           <span class="qualification__line"></span>
+                  <div class="skills__list grid">
+                     <div class="skills__data">
+                        <div class="skills__titles">
+                           <h3 class="skills__name">Flask</h3>
+                           <span class="skills__level">Intermediate</span>
                         </div>
-                        <div class="qualification__text">
-                           <h3 class="qualification__title">Bachelors of Science in Mathematics and Physics</h3>
-                           <span class="qualification__subtitle">University of Toronto</span>
+                        <div class="skills__bar">
+                           <span class="skills__percentage skills__flask"></span>
                         </div>
                      </div>
-                     <!--==================== EDUCATION 2 ====================-->
-                     <div class="qualification__data">
-                        <div class="qualification__bullet">
-                           <span class="qualification__rounder"></span>
-                           <span class="qualification__line"></span>
+                     <div class="skills__data">
+                        <div class="skills__titles">
+                           <h3 class="skills__name">React</h3>
+                           <span class="skills__level">Intermediate</span>
                         </div>
-                        <div class="qualification__text">
-                           <h3 class="qualification__title">Machine Learning Specialization</h3>
-                           <span class="qualification__subtitle">Stanford University</span>
+                        <div class="skills__bar">
+                           <span class="skills__percentage skills__react"></span>
                         </div>
                      </div>
-                     <!--==================== EDUCATION 3 ====================-->
-                     <div class="qualification__data">
-                        <div class="qualification__bullet">
-                           <span class="qualification__rounder"></span>
-                           <span class="qualification__line"></span>
+                     <div class="skills__data">
+                        <div class="skills__titles">
+                           <h3 class="skills__name">Node Express</h3>
+                           <span class="skills__level">Beginner</span>
                         </div>
-                        <div class="qualification__text">
-                           <h3 class="qualification__title">Certifications in Responsive Web Design, Front End, Back End and Relational Databases</h3>
-                           <span class="qualification__subtitle">Free Code Camp</span>
+                        <div class="skills__bar">
+                           <span class="skills__percentage skills__express"></span>
                         </div>
                      </div>
-                     <!--==================== EDUCATION 4 ====================-->
-                     <div class="qualification__data">
-                        <div class="qualification__bullet">
-                           <span class="qualification__rounder"></span>
-                           <!-- <span class="qualification__line"></span> -->
+                     <div class="skills__data">
+                        <div class="skills__titles">
+                           <h3 class="skills__name">HTML, CSS, JavaScript</h3>
+                           <span class="skills__level">Intermediate</span>
                         </div>
-                        <div class="qualification__text">
-                           <h3 class="qualification__title">Deep Learning Specialization</h3>
-                           <span class="qualification__subtitle">Stanford University</span>
+                        <div class="skills__bar">
+                           <span class="skills__percentage skills__htmlcss"></span>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-         </section>
-         <!--==================== SKILLS ====================-->
-         <section class="skills section" id="skills">
-            <h2 class="section__title">Skills</h2>
-            <span class="section__subtitle">My technical stack</span>
-            <div class="skills__container container grid">
+            <div>
                <div>
-                  <!--==================== SKILLS 1 ====================-->
-                  <div class="skills__content skills__open">
-                     <div class="skills__header">
-                        <i class="uil uil-robot skills__icon"></i>
-                        <div>
-                           <h1 class="skills__title">Machine Learning</h1>
-                           <span class="skills__subtitle">More than 7 years</span>
-                        </div>
-                        <i class="uil uil-angle-down skills__arrow"></i>
-                     </div>
-                     <div class="skills__list grid">
-                        <div class="skills__data">
-                           <div class="skills__titles">
-                              <h3 class="skills__name">Python</h3>
-                              <span class="skills__level">Expert</span>
-                           </div>
-                           <div class="skills__bar">
-                              <span class="skills__percentage skills__python"></span>
-                           </div>
-                        </div>
-                        <div class="skills__data">
-                           <div class="skills__titles">
-                              <h3 class="skills__name">AWS Sagemaker</h3>
-                              <span class="skills__level">Expert</span>
-                           </div>
-                           <div class="skills__bar">
-                              <span class="skills__percentage skills__sagemaker"></span>
-                           </div>
-                        </div>
-                        <div class="skills__data">
-                           <div class="skills__titles">
-                              <h3 class="skills__name">Pytorch</h3>
-                              <span class="skills__level">Intermediate</span>
-                           </div>
-                           <div class="skills__bar">
-                              <span class="skills__percentage skills__pytorch"></span>
-                           </div>
-                        </div>
-                        <div class="skills__data">
-                           <div class="skills__titles">
-                              <h3 class="skills__name">SKLearn</h3>
-                              <span class="skills__level">Expert</span>
-                           </div>
-                           <div class="skills__bar">
-                              <span class="skills__percentage skills__sklearn"></span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!--==================== SKILLS 2 ====================-->
+                  <!--==================== SKILLS 3 ====================-->
                   <div class="skills__content skills__close">
                      <div class="skills__header">
-                        <i class="uil uil-brackets-curly skills__icon"></i>
+                        <i class="uil uil-database skills__icon"></i>
                         <div>
-                           <h1 class="skills__title">Web Development</h1>
+                           <h1 class="skills__title">Databases</h1>
                            <span class="skills__subtitle">More than 5 years</span>
                         </div>
                         <i class="uil uil-angle-down skills__arrow"></i>
@@ -410,273 +518,224 @@
                      <div class="skills__list grid">
                         <div class="skills__data">
                            <div class="skills__titles">
-                              <h3 class="skills__name">Flask</h3>
-                              <span class="skills__level">Intermediate</span>
+                              <h3 class="skills__name">SQL</h3>
+                              <span class="skills__level">Expert</span>
                            </div>
                            <div class="skills__bar">
-                              <span class="skills__percentage skills__flask"></span>
+                              <span class="skills__percentage skills__sql"></span>
                            </div>
                         </div>
                         <div class="skills__data">
                            <div class="skills__titles">
-                              <h3 class="skills__name">React</h3>
-                              <span class="skills__level">Intermediate</span>
+                              <h3 class="skills__name">Elastic Search</h3>
+                              <span class="skills__level">Expert</span>
                            </div>
                            <div class="skills__bar">
-                              <span class="skills__percentage skills__react"></span>
+                              <span class="skills__percentage skills__elasticsearch"></span>
                            </div>
                         </div>
                         <div class="skills__data">
                            <div class="skills__titles">
-                              <h3 class="skills__name">Node Express</h3>
+                              <h3 class="skills__name">AWS Redshift</h3>
+                              <span class="skills__level">Intermediate</span>
+                           </div>
+                           <div class="skills__bar">
+                              <span class="skills__percentage skills__elasticsearch"></span>
+                           </div>
+                        </div>
+                        <div class="skills__data">
+                           <div class="skills__titles">
+                              <h3 class="skills__name">Matillion</h3>
                               <span class="skills__level">Beginner</span>
                            </div>
                            <div class="skills__bar">
-                              <span class="skills__percentage skills__express"></span>
-                           </div>
-                        </div>
-                        <div class="skills__data">
-                           <div class="skills__titles">
-                              <h3 class="skills__name">HTML, CSS, JavaScript</h3>
-                              <span class="skills__level">Intermediate</span>
-                           </div>
-                           <div class="skills__bar">
-                              <span class="skills__percentage skills__htmlcss"></span>
+                              <span class="skills__percentage skills__elasticsearch"></span>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
                <div>
-                  <div>
-                     <!--==================== SKILLS 3 ====================-->
-                     <div class="skills__content skills__close">
-                        <div class="skills__header">
-                           <i class="uil uil-database skills__icon"></i>
-                           <div>
-                              <h1 class="skills__title">Databases</h1>
-                              <span class="skills__subtitle">More than 5 years</span>
-                           </div>
-                           <i class="uil uil-angle-down skills__arrow"></i>
+                  <!--==================== SKILLS 4 ====================-->
+                  <div class="skills__content skills__close">
+                     <div class="skills__header">
+                        <i class="uil uil-cloud-data-connection skills__icon"></i>
+                        <div>
+                           <h1 class="skills__title">Dev Ops</h1>
+                           <span class="skills__subtitle">More than 5 years</span>
                         </div>
-                        <div class="skills__list grid">
-                           <div class="skills__data">
-                              <div class="skills__titles">
-                                 <h3 class="skills__name">SQL</h3>
-                                 <span class="skills__level">Expert</span>
-                              </div>
-                              <div class="skills__bar">
-                                 <span class="skills__percentage skills__sql"></span>
-                              </div>
-                           </div>
-                           <div class="skills__data">
-                              <div class="skills__titles">
-                                 <h3 class="skills__name">Elastic Search</h3>
-                                 <span class="skills__level">Expert</span>
-                              </div>
-                              <div class="skills__bar">
-                                 <span class="skills__percentage skills__elasticsearch"></span>
-                              </div>
-                           </div>
-                           <div class="skills__data">
-                              <div class="skills__titles">
-                                 <h3 class="skills__name">AWS Redshift</h3>
-                                 <span class="skills__level">Intermediate</span>
-                              </div>
-                              <div class="skills__bar">
-                                 <span class="skills__percentage skills__elasticsearch"></span>
-                              </div>
-                           </div>
-                           <div class="skills__data">
-                              <div class="skills__titles">
-                                 <h3 class="skills__name">Matillion</h3>
-                                 <span class="skills__level">Beginner</span>
-                              </div>
-                              <div class="skills__bar">
-                                 <span class="skills__percentage skills__elasticsearch"></span>
-                              </div>
-                           </div>
-                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
                      </div>
-                  </div>
-                  <div>
-                     <!--==================== SKILLS 4 ====================-->
-                     <div class="skills__content skills__close">
-                        <div class="skills__header">
-                           <i class="uil uil-cloud-data-connection skills__icon"></i>
-                           <div>
-                              <h1 class="skills__title">Dev Ops</h1>
-                              <span class="skills__subtitle">More than 5 years</span>
+                     <div class="skills__list grid">
+                        <div class="skills__data">
+                           <div class="skills__titles">
+                              <h3 class="skills__name">AWS Stack</h3>
+                              <span class="skills__level">Expert</span>
                            </div>
-                           <i class="uil uil-angle-down skills__arrow"></i>
+                           <div class="skills__bar">
+                              <span class="skills__percentage skills__aws"></span>
+                           </div>
                         </div>
-                        <div class="skills__list grid">
-                           <div class="skills__data">
-                              <div class="skills__titles">
-                                 <h3 class="skills__name">AWS Stack</h3>
-                                 <span class="skills__level">Expert</span>
-                              </div>
-                              <div class="skills__bar">
-                                 <span class="skills__percentage skills__aws"></span>
-                              </div>
+                        <div class="skills__data">
+                           <div class="skills__titles">
+                              <h3 class="skills__name">Docker</h3>
+                              <span class="skills__level">Intermediate</span>
                            </div>
-                           <div class="skills__data">
-                              <div class="skills__titles">
-                                 <h3 class="skills__name">Docker</h3>
-                                 <span class="skills__level">Intermediate</span>
-                              </div>
-                              <div class="skills__bar">
-                                 <span class="skills__percentage skills__docker"></span>
-                              </div>
+                           <div class="skills__bar">
+                              <span class="skills__percentage skills__docker"></span>
                            </div>
-                           <div class="skills__data">
-                              <div class="skills__titles">
-                                 <h3 class="skills__name">Git</h3>
-                                 <span class="skills__level">Intermediate</span>
-                              </div>
-                              <div class="skills__bar">
-                                 <span class="skills__percentage skills__git"></span>
-                              </div>
+                        </div>
+                        <div class="skills__data">
+                           <div class="skills__titles">
+                              <h3 class="skills__name">Git</h3>
+                              <span class="skills__level">Intermediate</span>
                            </div>
-                           <div class="skills__data">
-                              <div class="skills__titles">
-                                 <h3 class="skills__name">Linux</h3>
-                                 <span class="skills__level">Intermediate</span>
-                              </div>
-                              <div class="skills__bar">
-                                 <span class="skills__percentage skills__linux"></span>
-                              </div>
+                           <div class="skills__bar">
+                              <span class="skills__percentage skills__git"></span>
+                           </div>
+                        </div>
+                        <div class="skills__data">
+                           <div class="skills__titles">
+                              <h3 class="skills__name">Linux</h3>
+                              <span class="skills__level">Intermediate</span>
+                           </div>
+                           <div class="skills__bar">
+                              <span class="skills__percentage skills__linux"></span>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-         </section>
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            <h2 class="section__title">Who is Filip?</h2>
-            <span class="section__subtitle">A short intro to my life</span>
-            <div class="about__container container grid">
-               <image  class="about__img" src="assets/img/filip-headshot-updated.jpeg" alt=""/>
-               <div class="about__data">
-                  <ul class="about__description">
-                     <li><i class="uil uil-caret-right about__icon"></i> I am a Machine Learning Engineer located in Toronto, Canada. 
-                        I have many years of work experience focused on developing and deploying: large scale Machine Learning models 
-                        and ETL pipelines for Big Data from start to end.
-                     </li>
-                     <br>
-                     <li><i class="uil uil-caret-right about__icon"></i> I am a self taught web developer passionate
-                        about creating functional Web Applications and clean Websites. I constantly strive for knowledge, 
-                        expanding my skills by learning the newest technologies and take pride in building cool projects.
-                     </li>
-                     <br>
-                     <li><i class="uil uil-caret-right about__icon"></i> I love everything to do with AI and coding. 
-                        My ambition is to use these powerful disciplines to create technology that improves the world. 
-                        I focus on writing clean and maintainable code that always works.
-                     </li>
-                     <br>
-                     <li><i class="uil uil-caret-right about__icon"></i> When I am not working away writing code my 
-                        favorite thing to do is be outdoors: either biking, hiking or playing tennis. 
-                        I am also an avid traveller who enjoys visiting new places and countries.
-                     </li>
-                     <br>
-                     <li>I love to connect with new people and explore new opportunities, feel free to <a class="about__contact-link" href="#contact">leave me a message!</a>
-                     </li>
-                  </ul>
-                  <div class="about__buttons">
-                     <a href="assets/pdf/filip_stojanovic_resume_oct_2023.pdf" class="button button--flex" target="_blank">
-                     My Resume<i class="uil uil-download-alt button__icon"></i>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!--==================== CONTACT ME ====================-->
-         <section class="contact section" id="contact">
-            <h2 class="section__title">Contact Me</h2>
-            <span class="section__subtitle">Get in touch</span>
-            <div class="contact__container container grid">
-               <div class="contact__information contact__social">
-                  <a href="https://www.linkedin.com/in/filip-stojanovic-166382120" target = "_blank" class="contact__social-icon">
-                  <i class="uil uil-linkedin-alt"></i>
-                  </a>
-                  <a href="https://github.com/FilipStojanovicski" target = "_blank" class="contact__social-icon">
-                  <i class="uil uil-github-alt"></i>
-                  </a>
-               </div>
-               <div class="contact__data">
-                  <div class="contact__information">
-                     <i class="uil uil-map-marker contact__icon"></i>
-                     <div>
-                        <h3 class="contact__title">Location</h3>
-                        <span class="contact__subtitle">Canada - Toronto</span>
-                     </div>
-                  </div>
-                  <div class="contact__information">
-                     <i class="uil uil-envelope contact__icon"></i>
-                     <div>
-                        <h3 class="contact__title">Email</h3>
-                        <span class="contact__subtitle">filipstojanovic4d@gmail.com</span>
-                     </div>
-                  </div>
-               </div>
-               <div class="contact__information contact__information-btn">
-                  <div>
-                     <a href="mailto:filipstojanovic4d@gmail.com" class="button button--flex">
-                     Send Email
-                     <i class="uil uil-message button__icon"></i>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </section>
-      </main>
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         <div class="footer__bg">
-            <div class="footer__container container grid">
-               <a href="#home">
-                  <div class="footer__logo">
-                     <img class="footer__logo-img" src="assets/img/socialextract-logo-white.webp" alt="">
-                     <p class="footer__logo-text">Filip Stojanovic</p>
-                  </div>
-               </a>
-               <ul class="footer__links grid">
-                  <li>
-                     <a href="#home" class="footer__link">Home</a>
+         </div>
+      </section>
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+         <h2 class="section__title">Who am I?</h2>
+         <span class="section__subtitle">A little more about me</span>
+         <div class="about__container container grid">
+            <image class="about__img" src="assets/img/filip-headshot-updated.jpeg" alt="" />
+            <div class="about__data">
+               <ul class="about__description">
+                  <li><i class="uil uil-caret-right about__icon"></i> I'm a Machine Learning Engineer based in Toronto, Canada. 
+                     Over the years, I've had the opportunity to work across a range of industries, 
+                     building AI solutions and products that empower both businesses and customers.
                   </li>
-                  <li>
-                     <a href="#portfolio" class="footer__link">Projects</a>
+                  <br>
+                  <li><i class="uil uil-caret-right about__icon"></i>I'm passionate about creating and learning. I love bringing ideas 
+                     to life through the products I build, and as a lifelong learner, I'm always expanding my skills — whether 
+                     that's by diving into the latest technologies or building personal projects.
                   </li>
-                  <li>
-                     <a href="#qualification" class="footer__link">Experience</a>
+                  <br>
+                  <li><i class="uil uil-caret-right about__icon"></i> My goal has always been to use AI to make a positive impact and help improve the world. 
+                     One principle I live by is simplicity: I believe the best solutions are the ones that are streamlined, 
+                     reliable, and free of unnecessary complexity.
                   </li>
-                  <li>
-                     <a href="#skills" class="footer__link">Skills</a>
+                  <br>
+                  <li><i class="uil uil-caret-right about__icon"></i> When I'm not working, I enjoy stepping away from the screen and getting outdoors. 
+                     You'll often find me biking, hiking, or playing tennis. I also have a strong appetite for adventure and 
+                     love traveling to explore new places and cultures.
                   </li>
-                  <li>
-                     <a href="#about" class="footer__link">About</a>
-                  </li>
-                  <li>
-                     <a href="#contact" class="footer__link">Contact</a>
+                  <br>
+                  <li>If you'd like to connect, feel free to <a
+                     class="about__contact-link" href="#contact">reach out</a> — I'd love to hear from you! 
                   </li>
                </ul>
-               <div class="footer__socials">
-                  <a href="https://www.linkedin.com/in/filip-stojanovic-166382120" target="_blank" class="footer__social">
-                  <i class="uil uil-linkedin-alt"></i>
-                  </a>
-                  <a href="https://github.com/FilipStojanovicski" target="_blank" class="footer__social">
-                  <i class="uil uil-github-alt"></i>
+               <div class="about__buttons">
+                  <a href="assets/pdf/filip_stojanovic_resume_apr_2025.pdf" class="button button--flex" target="_blank">
+                     My Resume<i class="uil uil-download-alt button__icon"></i>
                   </a>
                </div>
             </div>
-            <p class="footer__copy">&#169; Filip Stojanovic. All Rights Reserved.</p>
          </div>
-      </footer>
-      <!--==================== PARTICLES JS ====================-->
-      <script src="assets/js/particles.min.js"></script>
-      <!--==================== MAIN JS ====================-->
-      <script src="assets/js/main.js"></script>
-   </body>
+      </section>
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+         <h2 class="section__title">Contact Me</h2>
+         <span class="section__subtitle">Get in touch</span>
+         <div class="contact__container container grid">
+            <div class="contact__information contact__social">
+               <a href="https://www.linkedin.com/in/filip-stojanovic-166382120" target="_blank"
+                  class="contact__social-icon">
+                  <i class="uil uil-linkedin-alt"></i>
+               </a>
+               <a href="https://github.com/FilipStojanovicski" target="_blank" class="contact__social-icon">
+                  <i class="uil uil-github-alt"></i>
+               </a>
+            </div>
+            <div class="contact__data">
+               <div class="contact__information">
+                  <i class="uil uil-map-marker contact__icon"></i>
+                  <div>
+                     <h3 class="contact__title">Location</h3>
+                     <span class="contact__subtitle">Canada - Toronto</span>
+                  </div>
+               </div>
+               <div class="contact__information">
+                  <i class="uil uil-envelope contact__icon"></i>
+                  <div>
+                     <h3 class="contact__title">Email</h3>
+                     <span class="contact__subtitle">filipstojanovic4d@gmail.com</span>
+                  </div>
+               </div>
+            </div>
+            <div class="contact__information contact__information-btn">
+               <div>
+                  <a href="mailto:filipstojanovic4d@gmail.com" class="button button--flex">
+                     Send Email
+                     <i class="uil uil-message button__icon"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__bg">
+         <div class="footer__container container grid">
+            <a href="#home">
+               <div class="footer__logo">
+                  <img class="footer__logo-img" src="assets/img/socialextract-logo-white.webp" alt="">
+                  <p class="footer__logo-text">Filip Stojanovic</p>
+               </div>
+            </a>
+            <ul class="footer__links grid">
+               <li>
+                  <a href="#home" class="footer__link">Home</a>
+               </li>
+               <li>
+                  <a href="#portfolio" class="footer__link">Projects</a>
+               </li>
+               <li>
+                  <a href="#qualification" class="footer__link">Experience</a>
+               </li>
+               <li>
+                  <a href="#skills" class="footer__link">Skills</a>
+               </li>
+               <li>
+                  <a href="#about" class="footer__link">About</a>
+               </li>
+               <li>
+                  <a href="#contact" class="footer__link">Contact</a>
+               </li>
+            </ul>
+            <div class="footer__socials">
+               <a href="https://www.linkedin.com/in/filip-stojanovic-166382120" target="_blank" class="footer__social">
+                  <i class="uil uil-linkedin-alt"></i>
+               </a>
+               <a href="https://github.com/FilipStojanovicski" target="_blank" class="footer__social">
+                  <i class="uil uil-github-alt"></i>
+               </a>
+            </div>
+         </div>
+         <p class="footer__copy">&#169; Filip Stojanovic. All Rights Reserved.</p>
+      </div>
+   </footer>
+   <!--==================== PARTICLES JS ====================-->
+   <script src="assets/js/particles.min.js"></script>
+   <!--==================== MAIN JS ====================-->
+   <script src="assets/js/main.js"></script>
+</body>
+
 </html>
